@@ -153,11 +153,7 @@ public class MenuPrincipal {
                     // Opción 9: Salir del sistema
 
                     // Muestro un mensaje de despedida
-<<<<<<< HEAD
                     JOptionPane.showMessageDialog(null, "Gracias por usar el sistema. (MAIN)");
-=======
-                    JOptionPane.showMessageDialog(null, "Gracias por usar el sistema. (PRUEBA)");
->>>>>>> Prueba
                 }
 
                 default -> {
@@ -166,11 +162,7 @@ public class MenuPrincipal {
 
                     // Me aseguro de que la opción no sea null (por si cierra el cuadro de entrada)
                     if (opcion != null)
-<<<<<<< HEAD
                         JOptionPane.showMessageDialog(null, "Opción no válida. (MAIN)");
-=======
-                        JOptionPane.showMessageDialog(null, "Opción no válida. (PRUEBA)");
->>>>>>> Prueba
                 }
             }
 
@@ -178,10 +170,6 @@ public class MenuPrincipal {
         } while (!"9".equals(opcion));
 
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> Prueba
     private static void registrarCliente(ColaClientes colaClientes) {
         String nombre = JOptionPane.showInputDialog("Nombre del cliente:");
         String dni = JOptionPane.showInputDialog("DNI:");
@@ -191,10 +179,6 @@ public class MenuPrincipal {
         Cliente c = new Cliente(nombre, dni, producto, edad);
         colaClientes.encolar(c);
         JOptionPane.showMessageDialog(null, "Cliente añadido a la cola.");
-<<<<<<< HEAD
     }    
-=======
-    }
->>>>>>> Prueba
 
 }
