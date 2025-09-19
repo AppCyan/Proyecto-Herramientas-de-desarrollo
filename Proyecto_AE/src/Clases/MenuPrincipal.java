@@ -153,7 +153,7 @@ public class MenuPrincipal {
                     // Opción 9: Salir del sistema
 
                     // Muestro un mensaje de despedida
-                    JOptionPane.showMessageDialog(null, "Gracias por usar el sistema.");
+                    JOptionPane.showMessageDialog(null, "Gracias por usar el sistema. (PRUEBA)");
                 }
 
                 default -> {
@@ -162,7 +162,7 @@ public class MenuPrincipal {
 
                     // Me aseguro de que la opción no sea null (por si cierra el cuadro de entrada)
                     if (opcion != null)
-                        JOptionPane.showMessageDialog(null, "Opción no válida.");
+                        JOptionPane.showMessageDialog(null, "Opción no válida. (PRUEBA)");
                 }
             }
 
